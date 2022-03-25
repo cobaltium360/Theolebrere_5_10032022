@@ -1,4 +1,4 @@
-// Appel fetch pour recupérer nos canapé
+// Appel fetch pour recupérer nos canapés
 function appelFetch() {
     return fetch('http://localhost:3000/api/products')
         .then(reponse => reponse.json())
